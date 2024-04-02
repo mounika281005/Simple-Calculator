@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic  Calculator v1.0</title>
+    
+    <!-- Include SweetAlert2 library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <!-- Include external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Calculator result area -->
+        <div id="result_area">
+            <!-- History display area -->
+            <div id="history">
+                <p></p>
+            </div>
+            <!-- Output display area -->
+            <div id="output">
+                <p></p>
+            </div>
+        </div>
+        
+        <!-- Calculator keys -->
+        <div class="keys">
+            <!-- Operator keys -->
+            <button class="op__key" id="clear">c</button>
+            <button class="op__key" id="backspace">del</button>
+            <button class="op__key" id="%">%</button>
+            <button class="op__key" id="/">&#247;</button>
+            
+            <!-- Number keys -->
+            <button class="num__key" id="7">7</button>
+            <button class="num__key" id="8">8</button>
+            <button class="num__key" id="9">9</button>
+            <button class="op__key" id="*">&times;</button>
+            <button class="num__key" id="4">4</button>
+            <button class="num__key" id="5">5</button>
+            <button class="num__key" id="6">6</button>
+            <button class="op__key" id="-">-</button>
+            <button class="num__key" id="1">1</button>
+            <button class="num__key" id="2">2</button>
+            <button class="num__key" id="3">3</button>
+            <button class="op__key" id="+">+</button>
+            <button class="op__key" id=".">•</button>
+            <button class="num__key" id="0">0</button>
+            
+            <!-- Form for GitHub link -->
+            <form action="https://github.com/mounika281005/Simple-Calculator" target="_blank">
+                <button class="num__key" id=""><action="">☕</button>
+            </form>
+            
+            <!-- Equals button -->
+            <button class="op__key" id="=">=</button>
+        </div>
+        
+        <!-- Footer section -->
+        <br />
+        <footer>
+            <p><em>Created by Mounika</em></p>
+        </footer>
+    </main>
+    
+    <!-- Include JavaScript file for calculator functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
