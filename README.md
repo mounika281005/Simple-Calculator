@@ -27,4 +27,4 @@ To use the calculator:
 
 ## Preview
 
-You can see a live preview of the calculator [click here]().
+You can see a live preview of the calculator [click here](https://v8x5jk.csb.app/).
